@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".TiltProfileChange"
+    android:background="#ff000000"
+    android:id="@+id/imageButton">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:text="Enable"
+        android:id="@+id/button"
+        android:background="#ff0a66ff"
+        android:textColor="#fff9fff6"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="104dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:text="Disable"
+        android:id="@+id/button2"
+        android:background="#ff0a66ff"
+        android:textColor="#fff9fff6"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageButton9"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/home" />
+</RelativeLayout>
